@@ -1,5 +1,6 @@
 import { mostrarforeach } from "./utilarray.js";
 import { filtrarporprecio } from "./utilarray.js";
+import { productosIVA } from "./ivaMap.js";
 const  productos=[
     {
         descripccion:"teclado" ,
@@ -25,7 +26,7 @@ const  productos=[
 
 //mostrar productos 
 mostrarforeach(productos);
-
+productosIVA(productos);
 //filtrar con precio mayor a 20
 // filtrarporprecio(productos);
 
