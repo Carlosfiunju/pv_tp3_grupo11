@@ -3,6 +3,7 @@ import { filtrarporprecio } from "./utilarray.js";
 import { productosIVA } from "./ivaMap.js";
 import { eliminarProducto } from "./eliminarObjeto.js";
 import { agregarFinal}  from "./agregar_final.js";
+import { OrdenarPorPrecio } from "./Ordenar_por_precio.js";
 const  productos=[
     {
         descripccion:"teclado" ,
@@ -35,3 +36,5 @@ eliminarProducto(productos);
 mostrarforeach(productos);
 //agregar un producto al final del array
 agregarFinal(productos);
+//Ordenar por precio
+OrdenarPorPrecio(productos);
